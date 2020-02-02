@@ -1,0 +1,59 @@
+.header-upload-app{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  background-color: rgb(5, 16, 22);
+  height: 300px;
+  justify-content: center;
+}
+
+.title-app{
+  color: white;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bolder;
+  padding-bottom:1rem ;
+  padding-top: 2rem;
+}
+
+
+.react-logo{
+  padding-top: 2rem;
+  width: 100px;
+  justify-self: center;
+  align-self: center;
+}
+.container {
+  padding-top:3rem ;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 4rem;
+  align-items: center;
+}
+
+.container-upload {
+  padding-top:3rem ;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  align-items: center;
+}
+
+.select-img{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 3rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+.loading{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 3rem;
+  padding: 2rem;
+  text-align: center;
+  color:  rgba(5, 16, 22, 0.767);
+}
+
+.new-file{
+ width:400px;
+ border-radius: 20px;
+ justify-self: center;
+}
